@@ -1,8 +1,10 @@
 
 body{
-    background-image:url("../images/greek-vase.png");
     margin:0;
     top:0;
+}
+.background{
+    background-image:url("../images/greek-vase.png");
 }
 .stickynav{
     position: fixed;
