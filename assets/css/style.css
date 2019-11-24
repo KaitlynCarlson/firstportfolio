@@ -19,6 +19,21 @@ body{
     justify-content: space-between;
 
 }
+nav {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    padding: 0 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+}
+nav a:first-child {
+    border-left: 0 none;
+}
+
 
 #Nav,a{
     color:#cccccc;
@@ -66,6 +81,8 @@ header {
     width:960px;
     display: flex;
     flex-direction: column;
+    min-height: 650px;
+
 }
 .KaitlynCarlson{
     display: flex;

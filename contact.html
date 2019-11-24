@@ -12,41 +12,39 @@
 <body>
 
     <div class="stickynav">
-        <nav id="Navigation">
+        <div id="Navigation">
             <header id="Name">Kaitlyn Carlson</header>
-            <ul id="Nav">
-                <li><a href="#">About</a></li>
-                <li>|</li>
-                <li><a href="#">Portfolio</a></li>
-                <li>|</li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+            <nav id="Nav">
+                    <a href="index.html"> About </a>
+                    <a href="portfolio.html"> Portfolio </a>
+                    <a href="contact.html"> Contact </a>
+                </nav> 
+            </div>
     </div>
 
     <!-- I used W3 as a reference for how to frame the following .container code: -->
     <!-- Specifically, "https://www.w3schools.com/howto/howto_css_contact_form.asp" -->
 
     <div class="parent">
-    <div class="container">
-        <h1>Contact</h1><br>
-        <form action="action_page.php">
+        <div class="container">
+            <h1>Contact</h1><br>
+            <form action="action_page.php">
 
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name..">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
 
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Your email..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
 
 
-            <label for="subject">Message</label>
-            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
 
-            <input type="submit" value="Submit">
+                <input type="submit" value="Submit">
 
-        </form>
+            </form>
+        </div>
     </div>
-</div>
 
     <div class="footer">
         <p id="footer"> Copyright &copy;</p>
