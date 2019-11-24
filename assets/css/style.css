@@ -5,6 +5,7 @@ body{
 }
 .background{
     background-image:url("../images/greek-vase.png");
+
 }
 .stickynav{
     position: fixed;
@@ -35,7 +36,6 @@ nav a {
 nav a:first-child {
     border-left: 0 none;
 }
-
 
 #Nav,a{
     color:#cccccc;
@@ -102,7 +102,7 @@ p{
     line-height: 30px;
 }
 
-input[type=text], select, textarea {
+input[type=text],input[type=email], select, textarea {
     width: 960px; 
     padding: 12px; 
     border: 1px solid #ccc; 
@@ -136,7 +136,7 @@ input[type=text], select, textarea {
     display: flex;
     align-content: center;
     flex-flow: column wrap;
-    min-height: 650px;
+    min-height: 450px;
   }
 #name, #email, #subject{
     color:#cccccc;
@@ -193,5 +193,4 @@ input[type=text], select, textarea {
     padding-left:5px;
     padding-top:20px;
     margin-bottom:0;
-    
 }
