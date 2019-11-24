@@ -7,7 +7,7 @@ body{
 .stickynav{
     position: fixed;
     background-color:#ffffff;
-    border-bottom: 1px solid #cccccc; 
+    border-bottom: 2px solid #cccccc; 
     width:100%;
     top:0;
     z-index: 1;
@@ -134,6 +134,7 @@ input[type=text], select, textarea {
     display: flex;
     align-content: center;
     flex-flow: column wrap;
+    min-height: 650px;
   }
 #name, #email, #subject{
     color:#cccccc;
