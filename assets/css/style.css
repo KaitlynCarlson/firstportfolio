@@ -5,6 +5,7 @@ body{
 }
 .background{
     background-image:url("../images/greek-vase.png");
+    min-height: 720px;
 
 }
 .stickynav{
@@ -102,7 +103,7 @@ p{
     line-height: 30px;
 }
 
-input[type=text],input[type=email], select, textarea {
+input[type=text], input[type=email], select, textarea {
     width: 960px; 
     padding: 12px; 
     border: 1px solid #ccc; 
